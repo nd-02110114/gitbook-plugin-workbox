@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-workbox",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A plugin for Gitbook that generates a service worker By using Workbox",
   "main": "index.js",
   "engines": {
