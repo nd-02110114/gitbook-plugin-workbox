@@ -1,7 +1,7 @@
 var fs = require("fs");
-var path = require('path');
-var workboxBuild = require('workbox-build');
-var customConfig = require('../workbox-config.js')
+var path = require("path");
+var workboxBuild = require("workbox-build");
+var customConfig = require(path.join(process.cwd(), '/workbox-config.js'))
 var book;
 
 module.exports = {
@@ -14,10 +14,9 @@ module.exports = {
       var rootDir = this.book.options.output;
       const defaultGlob = {
         globDirectory: rootDir,
-        swDest: rootDir + '/service-worker.js'
+        swDest: rootDir + "/service-worker.js"
       }
       const config = Object.assign(defaultGlob, customConfig)
-      console.log(config)
       workboxBuild.generateSW(config)
     }
   }
