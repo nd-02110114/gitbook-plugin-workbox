@@ -1,6 +1,6 @@
-# Gitbook WorkBox Plugin
+# Gitbook Workbox Plugin
 
-This plugin uses WorkBox - a module written by Google - to automatically generate a service worker and 
+This plugin uses Workbox - a module written by Google - to automatically generate a service worker and 
 include it in your gitbook output. 
 
 ## Installing
@@ -55,4 +55,4 @@ This plugin already set `globDirectory` and `swDest`.
 So, if you overwrite this setting, please add your original setting in workbox-config.js
 
 ## License
-This plugin is released under the MIT License, see LICENSE.
+This plugin is released under the MIT License, please see LICENSE.
