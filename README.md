@@ -9,7 +9,7 @@ Add this to your gitbook by including it in your book.json file.
 
 ```
 {
-    "plugins": [offline"]
+    "plugins": ["workbox"]
 }
 ```
 
