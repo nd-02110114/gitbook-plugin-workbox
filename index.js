@@ -17,7 +17,11 @@ module.exports = {
         swDest: rootDir + "/service-worker.js"
       }
       const config = Object.assign(defaultGlob, customConfig)
-      workboxBuild.generateSW(config)
+      if (customConfig.hasProperty("swSrc")) {
+        workboxBuild.injectManifest(config)
+      } else {
+        workboxBuild.generateSW(config)
+      }
     }
   }
 };
