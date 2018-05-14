@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-plugin-workbox",
+  "version": "0.0.1",
+  "description": "A plugin for Gitbook that generates a service worker By using Workbox",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nd-02110114/gitbook-plugin-workbox.git"
+  },
+  "gitbook": {},
+  "keywords": [
+    "gitbook",
+    "offline",
+    "service",
+    "worker",
+    "workbox"
+  ],
+  "author": "Daiki Nishikawa",
+  "license": "MIT",
+  "dependencies": {
+    "workbox-build": "^3.2.0"
+  }
+}
