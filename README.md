@@ -16,7 +16,7 @@ Add this to your gitbook by including it in your book.json file.
 Be sure to run `gitbook install` before building your book, or as part of your automated build process. 
 
 ## Usage
-1. Create `workbox-config.js` in the root directory (Maybe there is a package.json in the root directory)
+Create `workbox-config.js` in the root directory (Maybe there is a package.json in the root directory)
 
 Like the following.
 
@@ -43,8 +43,8 @@ module.exports = {
 
 ```
 
-**Caution!!**
-This plugin already set `globDirectory` and `swDest`.
+### Caution!!
+This plugin already set `globDirectory` and `swDest`.  
 (Confirm [index.js](https://github.com/nd-02110114/gitbook-plugin-workbox/blob/master/index.js))
 ```
 {
