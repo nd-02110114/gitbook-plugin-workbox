@@ -1,7 +1,7 @@
 # Gitbook Workbox Plugin
 
-This plugin uses Workbox - a module written by Google - to automatically generate a service worker and 
-include it in your gitbook output. 
+This plugin uses Workbox - a module written by Google - to generate a service worker and 
+include it in your gitbook output.  
 
 ## Installing
 
